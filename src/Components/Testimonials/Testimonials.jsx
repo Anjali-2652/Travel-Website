@@ -1,38 +1,40 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Slider from "react-slick";
-
+import img1 from "../../assets/profilepic1.avif"\
+import img2 from "../../assets/profilepic2.jpg"
+import img3 from "../../assets/profilepic3.jpg"
+import img4 from "../../assets/profilepic4.jpg"
 const Testimonials = () => {
   const testimonialsData = [
     {
       id: 1,
       name: "Aashika Singh",
       text: "Our trip was nothing short of spectacular! The itinerary was perfectly planned, and the destinations exceeded our expectations. From breathtaking mountain views to serene beach sunsets, this travel agency made it all possible!",
-      img: "src/Components/Testimonials/profilepic1.avif",
+      img:img1 ,
     },
     {
       id: 2,
       name: "Ankur Ahuja",
       text: "The team went above and beyond to ensure our journey was smooth and stress-free. From personalized suggestions to quick responses, their professionalism and care made all the difference!",
-      img: "src/Components/Testimonials/profilepic2.jpg",
+      img: img2,
     },
     {
       id: 3,
       name: "Sima Bhatia",
       text: "I couldn’t believe the incredible value we got for the price! Everything was taken care of, and we got to enjoy a hassle-free holiday filled with amazing experiences",
-      img: "src/Components/Testimonials/profilepic3.jpg",
+      img: img3,
     },
     {
       id: 4,
       name: "Dev Chandra",
       text: "As a family with young kids, we were nervous about traveling, but this travel service made it so easy. They catered to our needs perfectly, and we all came back with unforgettable memories!",
-      img: "src/Components/Testimonials/profilepic4.jpg",
+      img: img4,
     },
     {
       id: 5,
       name: "Aashika Singh",
       text: "As a solo traveler, I appreciated the attention to detail and safety. I felt supported throughout the trip and met amazing people along the way. It was the solo adventure of a lifetime!",
-      img: "src/Components/Testimonials/profilepic1.avif",
+      img: img5,
     },
   ];
 
