@@ -1,8 +1,10 @@
 import React from 'react'
+import BlogComponents from './BlogComponents'
 
 const Blogs = () => {
   return (
-    <div>
+    <div className='pt-20'>
+      <BlogComponents/>
       
     </div>
   )
