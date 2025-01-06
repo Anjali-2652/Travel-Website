@@ -1,7 +1,7 @@
 import React from 'react'
 import PlacesCard from './PlacesCard'
 import Img1 from "../../assets/pashupatinath-kathmandu.jpg"
-import Img2 from "../../assets/swambhu.jpg"
+// import Img2 from "../../assets/Swambhu.jpg"
 import Img3 from "../../assets/Davis-Fall-Pokhara.jpg"
 import Img4 from "../../assets/illam.jpg"
 import Img5 from "../../assets/poonhill-ghorepani-cover-.webp"
@@ -21,13 +21,13 @@ const Places = () => {
       description: "The Pashupatinath Temple is a Hindu temple located in Kathmandu, Nepal, built in 1953. It is the largest Hindu temple in the world.",
       price: 6500,
     },
-    {
-      img: Img2,
-      title : "Swayambhunath",
-      location: "Kathmandu",
-      description: "A UNESCO World Heritage site with a stunning panoramic view of Kathmandu.",
-      price:6000,
-    },
+    // {
+    //   img: Img2,
+    //   title : "Swayambhunath",
+    //   location: "Kathmandu",
+    //   description: "A UNESCO World Heritage site with a stunning panoramic view of Kathmandu.",
+    //   price:6000,
+    // },
     {
       img: Img3,
       title: "Davis Fall",
